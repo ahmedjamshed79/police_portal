@@ -8,6 +8,9 @@ import { PoliceRegisterComponent } from './police-register/police-register.compo
 import { PoliceRecordComponent } from './police-record/police-record.component';
 import { PublicRecordComponent } from './public-record/public-record.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MatTableModule } from '@angular/material/table';
+import { MatFormFieldModule, MatLabel } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    MatTableModule,
+    MatFormFieldModule,
+    MatInputModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
