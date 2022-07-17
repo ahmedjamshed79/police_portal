@@ -7,6 +7,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { PoliceRegisterComponent } from './police-register/police-register.component';
 import { PoliceRecordComponent } from './police-record/police-record.component';
 import { PublicRecordComponent } from './public-record/public-record.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PublicRecordComponent } from './public-record/public-record.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
